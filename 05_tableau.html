@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TABLEAU</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"  href="CSS/05_tableau.css"/>
+</head>
+<body>
+<!-- declaration d'un tableau-->
+<table>
+    <!-- titre (cellules fussionées) -->
+<caption>Ventes</caption>
+<!--en tete du tableau-->
+<thead>
+<!-- tr = rang / ligne ( t=table /row = row ou ligne) -->
+<tr>
+    <!--th = titres de colonnes (t = yable /h= head ou tete) -->
+    <!-- th*4 -->
+    <th>Jour</th>
+    <th>Smartphone</th>
+    <th>Tablette</th>
+    <th>Portable</th>
+</tr>
+</thead>
+
+<!-- tfoot = bas du tableau /!\ Les normes w3C mettent la balise tfoot avant celle du corps du tableau -->
+<tfoot>
+    <tr>
+        <td>Total</td>
+        <td>18</td>
+        <td>17</td>
+        <td>16</td>
+    </tr>
+</tfoot>
+<!-- tbody = corps du tableau -->
+<tbody>
+    <!-- (tr>td*4)*5 -->
+    <tr>
+        <td>Lundi</td>
+        <td>2</td>
+        <td>6</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>Mardi</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Mercredi</td>
+        <td>5</td>
+        <td>1</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>Jeudi</td>
+        <td>12</td>
+        <td>10</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>Vendredi</td>
+        <td>2</td>
+        <td>6</td>
+        <td>8</td>
+    </tr>
+</tbody>    
+</table>
+</body>
+</html>

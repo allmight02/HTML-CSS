@@ -1,0 +1,36 @@
+p{
+    background-color: aquamarine;
+}
+p span{ /*cible Les span enfants d'une balise <p>*/
+    background-color: black;
+}
+
+body{
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+div{
+    width: 90%;
+    /* Emmet width :90%; => w90%+tab */
+    background-color:lightsteelblue;
+    margin: auto; 
+}
+.photo{
+    height: 11vh;
+    /* vh = viewport height ou hauteur de l'ecrn */
+    width: 18vw;
+    /* vw = viewport width ou largeur de l'ecran */
+    padding: 5vh; /*EmmEt padding : 5vh; => p5vh+tab */
+    background: url(../CSS/IMG/bkg.jpg);
+    background-repeat:no-repeat;
+    /* l'image ne se répéte pas -Emmet background-repeat => bgr +tab */
+    border: 5px double orchid;
+    /* 3 valeurs => taille,style et couleur */
+    margin: 2vh; /*EMMET m2vh + tab*/
+    float: left/*flottant placant les éléments cote a cote alors que dans le flux naturel du web ils se placent les uns au dessus des autres*/;
+}
+
+/* par convention cette classe est placée à la fin du fichier CSS */
+.clear {
+    clear: both;
+}

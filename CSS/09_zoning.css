@@ -1,0 +1,43 @@
+#contenu{
+    width: 80%;
+    margin:0 auto;
+    border: 2px solid black;
+}
+header{
+    background-color:#8e3557;
+    height: 100px;
+}
+nav{
+    background-color: palevioletred;
+    height: 30px;
+}
+main{
+    background-color:  #787746;
+    height: 500px;
+    margin: 20px;
+}
+#a, #b, #c, #d{
+    width: 50%;
+    height: 250px;
+    float: left;
+
+}
+#a{
+    background-color: rgb(2, 3, 0);
+}
+#b{
+    background-color:rgb(65, 4, 4);
+}
+#c{
+    background-color:rgb(136, 136, 136);
+}
+#d{
+    background-color: rgb(187, 139, 8);
+}
+footer{
+    background-color: rgb(100, 44, 7);
+    height: 100px;
+}
+.clear{
+    clear: both;
+}

@@ -1,0 +1,22 @@
+.contenu{
+    background: linear-gradient(to left, #40a497, #6840a4);
+    /*gradient => dégradé - débute avec la 1ere couleur et fini avec la 2nde de haut en bas par défaut mais on a ajouté TO LEFT qui faot un dégradé à gauche à droite*/
+    width: 45em;/*Largeur*/
+    height: 45px;/*hauteur*/
+    margin: 0 auto;/*pas de marge en haut et en bas(valeur 0) - auto pour les marges droite et de gauche laissent le navigateur centrer l'élément*/
+    border-radius: 50%;/*La propriéte border-radius permet d'arrondir les angles -EMMET border-radius => bdra + tab*/
+}
+.jhordan {
+    background: linear-gradient(to left,red,gold);
+    width: 45em;
+    height: 40em;
+    margin-block-end: auto;
+    border-radius: 100%;
+}
+.mohammed{
+    background-image: url(https://media1.giphy.com/media/dilBP4FslWpm8/giphy.gif);
+    width: 45em;
+    height: 60em;
+    margin: 0 auto;
+    border-radius: 100%;
+}

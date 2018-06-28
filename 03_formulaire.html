@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Formulaire</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/03_formulaire.css"/>
+</head>
+<body>
+    <!-- Je declare mon formulaire avec ma balise FORM -->
+    <form action="">
+        <fieldset>
+
+            <legend> Identite</legend>
+            <label for ="">pseudo *</label>
+            <!-- inuput de type texte-->
+            <input type="text" placeholder="texte d'exemple" required>
+                    <br>
+            <!-- REQUIERED ren dle champ obligatoire pour valider le formulaire --> 
+
+            <!-- mot de passe -->
+            <label for="">Mot de passe *</label>
+            <input type="password" required>
+                    <br>
+            <!-- email-->
+            <label for="">Mail</label>
+            <input type="file">
+                    <br>
+            <fieldset>
+                <legend> Question</legend>
+                <!-- Case à cocher -->
+                <label for=""> Ou part-on en vacabces?</label>
+                <p>
+                    <input type="checkbox">Chine
+                    <!-- CHECKED coche une case par défaut -->
+                    <input type="checkbox" checked>Australie
+                    <input type="checkbox">Mars
+                        </p>
+                        <!--Zone de texte-->
+                        <label for="">Comentaire</label>
+                        <!--je dimensionne ma zone de texte avec les attributs COLSS (colonnes = nb de caractères) et RPWS (rangs/lignes)-->
+                        <textarea name="" id="" cols="30" rows="10"></textarea><br>
+            </fieldset>
+            <!-- bouton d'envoi du formulaire-->
+            <input type="submit" value="Envoyer">
+            <!-- bouton pour vider le formulaire -->
+            <input type="reset" value="Annuler"
+
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>

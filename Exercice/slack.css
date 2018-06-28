@@ -1,0 +1,31 @@
+.c0, .c1, .c2, .c3,.c4{
+    height: 10em;
+    width: 10em;
+   
+    margin: 0.2em;
+    float: left;
+    text-align: center;
+    border-radius: 20%;
+}
+.c1{
+    background-color: palegreen;
+  border-bottom-left-radius: 47%;
+  border-radius: 50%;
+}
+.c2{
+    background-color: rgb(18, 228, 243);
+  border-bottom-style: ridge; 
+    border-bottom-right-radius: 78%;
+}
+.c3{
+    background-color: orchid;
+    border-block-end-style: groove;
+    border-bottom-left-radius: 50%;
+}
+.c4{
+    background-color: red;
+    border-block-end-style: double;
+}
+.clear{
+    clear: both;
+}

@@ -1,0 +1,17 @@
+label {
+    float: left;  /*FLOAT => j'alligne un element ici sur la gauche;*/
+    width: 190px; /*Largeur de mon label*/
+    color: rgb(128, 182, 230); /*couleur du texte*/
+    background: #000000; /*couleur de fond en code decimal ou RVB*/
+}
+body {
+    background-image: url(https://vignette.wikia.nocookie.net/bokunoheroacademia/images/1/18/It%27s_All_Right.png/revision/latest?cb=20170708155615);
+    
+}
+form {
+    width: 16px;
+}
+fieldset {
+    background-color:moccasin ;
+
+}

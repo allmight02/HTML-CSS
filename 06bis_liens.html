@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>LIENS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/06bis_liens.css" />
+</head>
+<body>
+   <h1>Les Liens d'une page HTML ou la navigation</h1>
+
+   <h2 id="top">Les ancres :liens dans la meme page </h2>
+   
+   <!-- (p>a)*8 -->
+   <p><a href=""></a></p>
+   <p><a href=""></a></p>
+   <p><a href=""></a></p>
+   <p><a href=""></a></p>
+   <p><a href=""></a></p>
+   <p><a href=""></a></p>
+   <p><a href=""></a></p>
+   <p><a href=""></a></p>
+
+
+   <!-- h2 interieur -->
+   <h2 id="interieur">Une autre page du meme site</h2>
+   <a href="06_liens_page2.html">Cliquez ici pour aller en page 2</a>
+   <a href="#top">Remonter</a>
+   <hr>
+
+   <!-- h2#onglet-->
+   <h2 id="onglet">Un nouvel onglet</h2>
+   <a href="06_liens_page2.html" target="_blank">Cliquez ici pour aller en page 2</a>
+   <hr>
+<!--h2#site-->
+   <h2 id="site">Un autre site</h2>
+   <a href="http://www.otakufr.com/" title="Site de manga">L'attribut TITLE affiche une info-bulle au survol de la souris</a>
+   <a href="#top">Remonter</a>
+   <hr>
+
+   <!--h2#telecharger-->
+   <h2 id="telecharer">Telecharger un fichier</h2>
+   <a href="CSS/IMG/bkg.jpg">Telecharger le document</a>
+   <a href="#top">Remonter</a>
+   <hr>
+
+   <!-- h2#visualiser-->
+   <h2 id="visualier">Ouvrir un fichier PDF dans mon navigateur</h2>
+   <a href="CSS/IMG/image.pdf">Visualier le fichier</a>
+   <a href="#top">Remonter</a>
+   <hr>
+
+   <!-- h2#download -->
+   <h2 id="download">Télécharger un PDF</h2>
+   <a href="CSS/IMG/image.pdf" download="">L'attribut DOWNLOAD propose de télécharger le fichier</a>
+   <a href="#top">Remonter</a>
+   <hr>
+<!-- h2#image-->
+   <h2 id="image">Mettre un lien sur une image</h2>
+   <a href="http://www.pashplus.jp/wp/wp-content/uploads/hiroaca_20160905_image04.jpg"></a><img src="CSS/IMG/bkg.jpg" alt="Boss"></a>
+   <a href="#top">Remonter</a>
+   <hr>
+   <!-- h2#print -->
+   <h2 id="print">Imprimez la page en cours</h2>
+   <a href="" onclick="windows.print()">onclick=> je détecte si on a Cliquez / windows =la page html actuelle /print() => fonction JavaScript pour l'imprimer</a>
+   <hr>
+
+
+</body>
+</html>
