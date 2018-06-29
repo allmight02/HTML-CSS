@@ -9,7 +9,7 @@ h1 {
 section p {
     color: rgba(250, 11, 111, 0.473);
 }
-/*LE premer <p>*/
+/*LE premeir <p>*/
 section p:first-child {
     color: rgb(192, 224, 11);
 }

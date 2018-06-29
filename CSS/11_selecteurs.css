@@ -1,0 +1,74 @@
+*{
+    font-family: sans-serif;
+}
+nav{
+    background: #000;
+    color: #fff;
+    padding:0 0.5em ;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    top:0;
+    left: 0;
+}
+nav a{/* on cible tous les liens enfant de la balise nav */
+    float: left;/* effet flottant à gauche */
+    text-decoration: none;/* j'annule la décoration par défault */
+    color: #ffffffff;/* couleur du texte  */
+    background: #000;/* couleur de fond*/
+    height: 2.8em;/* je regle la hauter */
+    line-height: 2.7em;/* je regle la hauteur de l'interligne pour centrer verticalement le texte */
+    padding: 0em 2em;/* si on met les 2 valeur sa veux dire que le 0 et pour le haut et bas et 2 droite ou gaucge */
+    font-size: 1.2em;
+    transition: 5s;/* on indique qu'on veuc une animation avec le temps de transition de 2seconde au survol de la souris sur mes liens de navigation */
+
+}
+
+nav a:hover{
+    background: #fda500;
+    color: #000;
+}
+article{
+    background: rgb(203, 238,163);
+   border-radius: 8px;
+   margin: 4%;
+   width:70%;
+}
+mark{
+    background-color: rgb(166, 7, 214);
+}
+
+main {
+    background-color:  #e2b0ee;
+    height: 500px;
+    margin: 20px;
+    background-image: url(../CSS/IMG/bkg.jpg);
+}
+main article{
+    width: 79%;
+}
+section{
+    background: rgb(203, 238,163);
+    
+
+}
+#c{
+    height: 250px;
+    float: left;
+    height: 308px;
+    width: 65%;
+
+}
+#d{
+    background: rgb(203, 238,163);
+    float: right;
+    height: 438px;
+    width: 35%;
+    border-radius: 54px;
+
+}
+.section{
+    position: relative;
+    margin: 0;
+}
