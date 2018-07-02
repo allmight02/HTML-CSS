@@ -1,0 +1,27 @@
+.zone-adaptative{
+    background: red;
+    color: white;
+    padding: 10px;
+}
+@media(min-width:768px){/* min with = à partir d'un écran large de 768px et au-dessus */
+    .zone-adaptative{
+        width: 750px;
+        background: orange;
+    }
+}
+/* Les media querizs définissent des points de rupture / de transition d'affichage (break points) */
+
+@media(min-width:992px){/* 992px et plus*/
+    .zone-adaptative{
+        width: 970px;
+        background: blue;
+    }
+}
+
+@media(min-width:1200px){/*1200px et plus*/
+    .zone-adaptative{
+        width: 1170px;
+        background: green;
+    }
+
+}
